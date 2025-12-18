@@ -1,0 +1,16 @@
+# Nudge - Dependencies
+# This is a Node.js/npm project. Install all dependencies with:
+# npm install
+
+# Dependencies
+expo@54.0.30
+react@18.2.0
+react-native@0.74.1
+
+# Dev Dependencies
+@types/react@~18.2.0
+
+# Note: For best compatibility with Expo 54.0.30, consider upgrading to:
+# react@19.1.0
+# react-native@0.81.5
+# @types/react@~19.1.10
