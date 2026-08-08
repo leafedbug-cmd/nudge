@@ -67,7 +67,7 @@ const App = () => {
       </View>
 
       {/* Pro Mode Toggle */}
-      <View style={styles.preModeContainer}>
+      <View style={styles.proModeContainer}>
         <Text style={styles.proModeLabel}>Pro Mode</Text>
         <Switch
           value={isPro}
@@ -250,6 +250,18 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     color: '#aaa',
     letterSpacing: 0.5,
+  },
+  proModeContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    backgroundColor: '#1a1a1a',
+    paddingHorizontal: 16,
+    paddingVertical: 14,
+    borderRadius: 12,
+    marginBottom: 30,
+    borderWidth: 1,
+    borderColor: '#333',
   },
   proSection: {
     backgroundColor: '#1a0a1a',
