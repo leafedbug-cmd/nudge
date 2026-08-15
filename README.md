@@ -2,6 +2,8 @@
 
 A low-friction social interaction app built with React Native (Expo) for Android.
 
+Repository recovery details: [docs/REPOSITORY-IDENTITY.md](docs/REPOSITORY-IDENTITY.md).
+
 ## Features
 
 ### Free Tier
